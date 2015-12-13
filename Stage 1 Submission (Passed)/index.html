@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Notes from Udacity Intro to Programming NanoDegree</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+        <h1>Intro to Programming Nanodegree</h1>
+        <span class="strapline">Notes by Thomas Mault</span>
+        
+        <div class="contents">
+            <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="#lesson1">Lesson 1: The Basics of the Web and HTML</a></li>   
+                    <li><a href="#lesson2">Lesson 2: Creating a Structured Document</a></li>
+                    <li><a href="#lesson3">Lesson 3: Adding CSS Style and HTML Structure</a></li>
+                </ul>  
+        </div>
+
+		<div class="lesson">
+			<h2 id="lesson1">1.1 The Basics of the Web and HTML</h2>
+    			<h3>What is a programmer?</h3>
+                    <p>A programmer is a person that tells computers what to do. Computers are excruciatingly specific, they care a lot about syntax and structure and following rules. The job of the programmer is to break down things they want to happen into constituent parts.</p>
+
+    			<h3>How does a programmer do this?</h3>
+                    <p>They use <em>at least</em> five ways of thinking. The ways of thinking include procedural thinking, abstract thinking, systematic debugging, technological empathy and systems thinking.</p>
+
+                    <p>As a programmer, you do not need to remember every single detail. <a href="https://www.google.com/">Google</a> and Stack Overflow exist for that (What is Stack Overflow for? Check out this <a href="http://stackoverflow.com/help/on-topic">FAQ page</a>). However, you do need to understand the big concepts so that you can wrap your head around problems.</p> 
+                
+                    <p>Knowing where to look for the answer is half of the solution. Also, get used to reading documentation. Proper documentation is the secret source to understanding how any (properly documented!) system works.</p>
+
+                    <p>Almost anyone can learn almost anything given enough time and resources.</p>
+			
+    			<h3>Specifically</h3>
+        			<ul>
+        				<li>Tags must be opened and closed, unless they are void (containing no content, e.g. br)</li>		
+        				<li>An element is a pair of tags (opening and closing)</li>
+        				<li>Tags can either be inline or block (effectively create an invisible box around the content)</li>
+        			</ul> 
+		</div>
+
+		<div class="lesson">
+            <h2 id="lesson2">1.2 Creating a Structured Document</h2>
+                <h3>Broadly</h3>
+                    <ul>
+                        <li>Building with HTML, CSS and JS is a little bit like building a house. HTML lays out the structure, ie where the rooms are. CSS sets the style, such as what colour the walls are. Javascript provides the interaction, like the garage door that opens and closes when you press a button.</li>                        
+                        <li>The web is made up of boxes. Start your designs with large boxes, and work your way down to the detail.</li>
+                        <li>Crossing the <b>knowledge gap</b> requires <b>reflection</b>. Crossing the <b>skills gap</b> requires <b>practice</b>.</li>
+                    </ul>
+
+                <h3>What is the DOM?</h3>
+                    <p>The DOM is how objects in a web page are represented. It sorts out how all of the little components, like images, text, links and titles are shown.</p>
+                
+                <h3>The Tree Like Structure of HTML</h3>
+                    <p>Earlier, we talked about how the web is made of boxes. These boxes, or elements, live inside each other. This is why we say that HTML has a nested, or <em>tree-like structure</em>.</p>
+                    
+                <h3>Other Things I Learned...</h3>
+                    <ul>
+                        <li>DOM = Document Object Model</li>
+                        <li>Tags are turned into elements in a tree, as part of the DOM</li>                        
+                        <li>A circle is just a square with a border radius of 50%</li>
+                        <li>Tags either contain nothing, text or another element. This is true of every single website you visit. That's (1) kind of crazy, but (2) very reasuring. Everything you have even seen in the browser is at some level composed of the same units and rules that you're using right now.</li>
+                    </ul>
+        </div>
+
+		<div class="lesson">
+			<h2 id="lesson3">1.3 Adding CSS Style and HTML Structure</h2>
+                <h3>DRY</h3>
+                    <p>Do not Repeat Yourself. You're learning to be a programmer. The machine is there to do mechanical, repetitive things for you, to make your life easier.</p> 
+                    <p>Avoiding repetition is kind of magical. It makes things consistent, and when you realise something is wrong, this helps you make changes in less time.</p>
+
+                <h3>The Box Model</h3>    
+                    <p>One thing that I have learned about whilst building this site is the difference between Margin, Border, Padding and Content. This image (from <a href="http://www.w3schools.com/css/css_boxmodel.asp">w3schools</a>) exemplifies the concept: </p>
+                    <img class="center" src="http://www.w3schools.com/css/box-model.gif" alt="A visual map showing how content is wrapped by padding, which is contained within a border, which is surrounded by a margin">
+                <br>
+        
+                <h3>Positioning Boxes</h3>
+                    <p>There is a lot of power within CSS to do this, but it's probably one of the most complex topics in CSS. In the class that we dived into for IPND, Jessica covered one tool; flexbox.</p>
+            
+                    <p>Flexbox (which means flexible box) is used to position elements next to each other. To enable flexbox, you need to change the display attribute of the parent container. There are a couple of examples showing how to do that <a href="http://learnlayout.com/flexbox.html">here</a>.</p>
+                <h3>Code, Test, Refine</h3>
+                    <p>Are things not quite like you'd like them to be? There's a couple of questions you should ask:</p>
+                    <ol>
+                        <li>Is the structure of the document correct? Divide and conquer. Look for places that are distinct, natural boxes for content.</li>
+                        <li>Are the boxes the right size?</li>
+                        <li>Are the boxes in the right position?</li>
+                    </ol>
+                <h3>Specifically</h3>
+                    <ul>
+                        <li>Use a logical tag. Don't create a div and create a title class, just use h1. There are conventions in place. Read about them and make sure your code adheres to best practice. Not only will it make it clearer, it will make it easier for other people to pick up what you have been working on.</li>
+                    </ul>
+        </div>
+	</body>
+</html>

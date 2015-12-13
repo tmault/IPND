@@ -1,0 +1,41 @@
+/* This is my CSS */
+body {
+
+    font-family: Helvetica;
+    max-width: 600px; /*Using max width, not percentage because 600px is a good width for readability. Will scale to smaller sizes in devices with a smaller screen resolution than 600px*/
+    padding: 20px 10px;
+    margin: auto auto;
+    background-color: white;
+    line-height: 34px; /* Writing and reading academic papers taught me the important of ample line spacing. It makes reading documents easier*/
+}
+
+h1 {
+    color: #041E37
+}
+
+.strapline {
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.contents {
+    border-top-style: dotted;
+    border-top-color: black;
+    padding: 10px;
+}
+
+li {
+    list-style-type: square;
+}
+
+.lesson {
+    border-top-style: dotted;
+    border-top-color: grey;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
