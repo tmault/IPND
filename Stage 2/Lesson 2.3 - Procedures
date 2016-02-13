@@ -12,3 +12,14 @@ def rest_of_string(s):
 print rest_of_string('audacity')
 
 # Add your own code and notes here
+
+# Using Functions
+<function>(<input/operands/arguments>,<input>,...)
+
+Functions take an input, do something with it, and then produce output.
+
+
+# Defining Functions
+We must offer the function name, then (<input>,<input>,...)
+
+This is defined, in general terms, by the stuff to the left of def ...
